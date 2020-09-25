@@ -96,3 +96,9 @@ node server
 [blog post]: https://alba.sh/blog/telegram-shell-bot/
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MannyHackers&layout=compact)](https://github.com/MannyHackers/Shell-Bot)
+
+```
+Deploy to heroku
+```
+Click this button to deploy to heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NBM69/NoobMaster-shellmybot)
