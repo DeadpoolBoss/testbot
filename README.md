@@ -101,4 +101,4 @@ node server
 Deploy to heroku
 ```
 **Click this button to deploy to heroku**
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=your_repo_url)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NBM69/Noobmaster-Shellbot))
