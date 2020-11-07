@@ -7,11 +7,25 @@ RUN apt-get -qq update
 RUN apt-get -qq install -y aria2 python3 python3-pip \
     git bash build-essential curl wget \
     nodejs npm aria2 p7zip-full zip unzip qbittorrent-nox ruby python-minimal python-pip locales pv jq ffmpeg mediainfo
-
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
+
+#sudo Install
+RUN apt install git
+
+RUN git clone https://gitlab.com/st42/termux-sudo
+
+RUN cd termux-sudo
+
+RUN cat sudo > /data/data/com.termux/files/usr/bin/sudo
+
+RUN chmod 700 /data/data/com.termux/files/usr/bin/sudo
+
+#7zfull install
+RUN sudo apt-get install p7zip-full
+
 
 # rclone and gclone
 RUN curl https://rclone.org/install.sh | bash
